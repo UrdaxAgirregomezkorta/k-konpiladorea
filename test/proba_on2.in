@@ -1,0 +1,29 @@
+def main () # proba on 2
+    let  a,b,c : int;
+	 d,e : float ''' hau ' lerro anitzeko 
+  	 iruzkin bat da ''' in {
+    def add ( x,y: int; result: & int)
+	let aux, iteration : int in {
+        aux = x;
+        result = y;
+        if result < 1000 {
+            iteration = 0;
+            do {
+                result = result + 1;
+                break if result > 1000000 ;
+                aux = aux - 1;
+                iteration = iteration + 1;
+            } until aux /= 0
+            else {
+                print(iteration);
+            }		# end do
+	}		# end if
+    }	# end def add
+   
+    read(a); read(b);
+    d= 1/b;
+    e= 1/a;
+    # add(a,b,c);    ''' azpiprogramen deiak egiten dituztenentzat soilik '''
+    c= c*(c*d)+e;
+    print(c*c);
+}

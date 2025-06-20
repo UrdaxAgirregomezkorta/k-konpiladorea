@@ -1,0 +1,10 @@
+def main() #proba_for_on
+let i, suma : int in {
+    suma = 0;
+
+    for i in 1 to 10 {
+        suma = suma + i;
+    }
+
+    print(suma);
+}

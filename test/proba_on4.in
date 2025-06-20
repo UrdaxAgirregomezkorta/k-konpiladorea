@@ -1,0 +1,51 @@
+# proba on 4
+# Gramatikaren egitura desberdinak probatu nahi ditugu%%
+
+def main () 
+  let f : float;
+  joseluis, id1, $ax_hjjt : float in {
+
+  def kalkuluko (a,b,c : int; z : & float)
+  '''kalkuluko funtzioak*****/ kalkuluak era zoroan egingo ditu Zentz4ri6q357k gabe$%&!"MX:Z-*
+   lerro anitzeko iruzkina da'''
+  let d,e,f: float;
+    g : int in
+  {
+    e = $ax_hjjt;
+    read(joseluis);
+    f = e/joseluis;
+    g = 0;
+    z = a/c*b-a;
+    if (z <= 0.6) {
+        forever {
+            g = g+1;
+            break if g > 5000000;
+        }
+    }
+    if (z > 0.7) {
+        z= 100000.0e-5;
+    }
+    print(z);
+  } #! kalkuluko amaiera
+
+
+  def gehibi (x: & int)  {
+    x = x + 2;
+  } #! amaiera
+
+
+  read(a); read(b); read(f);
+  e = 2.6743E2;
+  print(e);
+  e = e * 4.900e+2;
+  print(e);
+  # gehibi(f);
+  e = e - 0.5;
+  d = 1/e;
+  print(d);
+  # prozesatu(a,b); '''** prozedura * ** &%$·""?¿ñ^[]Çç:;-_,.\ | ! @ **** deiak tratatzeko ***// '''
+  c = c*(c*d)+e;
+  print(c); print(f);
+} #! main amaiera
+
+

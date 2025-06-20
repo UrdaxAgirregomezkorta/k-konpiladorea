@@ -1,0 +1,62 @@
+def main () # proba on 3
+let a, b, c: int;
+    d, e : float;
+    f : float in {
+  def prozesatu(x: int; y: int)  # bi parametroak balioz
+    let lag, bueltak_, $emaitza, emaitza__1: int in
+    '''' azpiprograma habiaratuak
+     ''  sinbolo taula erabiliz gero, erabilera esparruak ondo kontrolatu '''
+  {
+    def gehibat (x: & int)  {
+      x = x + 1;
+    } # end
+    def kenbat (x: & int) {
+      x = x - 1;
+    } # end
+ 
+    lag = y; $emaitza = x;
+    forever {
+      break if emaitza__1 < 0 ;
+      emaitza__1 = emaitza__1 - 1 * bueltak_ // y;
+    } # begizta infinitua 
+
+    if $emaitza < 1000 {
+      bueltak_ = 0;
+      do {
+	# gehibat($emaitza); ''' prozedura ?? deiak tratatzeko '''
+	if $emaitza > 100000 { next; }
+	# kenbat(lag);	   ''' prozedura ** deiak tratatzeko '''
+	bueltak_ = bueltak_ + 1;
+      }  until lag /= 0 else { print($emaitza); }  #! do-until
+   
+      if emaitza__1 == 0 { print(emaitza__1); }
+      if emaitza__1 > 0 { print(bueltak_); }
+    } #! if amaiera
+  
+    print(bueltak_);
+  } #! prozesatu amaiera
+
+  def gehibi (x: & int)  { # parametroa erreferentziaz
+    x = x + 2;
+  } #! amaiera
+
+'''*** hemen hasten da  ** / *
+       programa nagusia ***''''
+
+  read(a); read(b); read(f);
+  e = 2.6743E2;
+  print(e);
+  e = e * 4.900e+2;
+  print(e);
+  #! gehibi(f);
+  e = e - 0.5;
+  d = 1/e;
+  print(d);
+  # prozesatu(a,b);   ''''' Ondoren dauden ikurrak EZ DIRA TOKEN BERRIAK, iruzkin barruan daude * ** &%$·""?¿ñ^[]Çç:;-_,.\ | ! @   **** *** '''''
+  c = c*(c*d)+e;
+  print(c); print(f);
+} #! main amaiera
+
+
+
+

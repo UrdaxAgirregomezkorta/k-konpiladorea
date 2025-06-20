@@ -1,0 +1,13 @@
+def main () # proba txar 2
+
+let a : float in
+{
+ '''** hau *** / iruzkin **
+   bat da ***''' hau kanpoan dago '''
+
+# lerro bukaerara arte
+   a = 0.4756 ;
+   
+
+}
+
