@@ -1,2 +1,2 @@
 # Konpiladorea
-(Master branch)
+(develop branch)
